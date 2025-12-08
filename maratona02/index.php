@@ -7,7 +7,106 @@
 </head>
 <body>
    <h1> <?php 
+  
+  
+      echo "<h2>Primeiro Exércicio 1</h1>";
+ 
+     $numero = 10;
+     if ($numero > 0) {
+      echo "O número é positivo.";
+     }
+     elseif ($numero < 0) {
+     echo "O número é negativo. ";
+     } else {
+      echo "O número é zero. ";
+     }
+ 
+    echo "<br>";
+ 
+    // função para classificar a nota
+ 
+     echo "<h2>Exércicio 2</h1>";
+ 
+     echo "<br>";
+ 
+      $numero2 = 8;
+ 
+      if ($numero2 >= 0 && $numero2 <= 4.9) {
+        echo "Reprovado.";
+      } elseif ($numero2 >= 5 && $numero2 <=6.9) {
+        echo "Recuperação";
+      } elseif ($numero2 >=7 && $numero2 <= 8.9) {
+        echo "Aprovado";
+      } elseif ($numero2 >=9 && $numero2 <= 10 ) {
+        echo "Aprovado com Distinção";
+      } else
+          echo "Opição invalida";
+ 
+      // funçao para ver se esta autorizado a votar
+       
+      echo "<h2>Exércicio 3</h1>";
+ 
+     $idade = 17;
      
+     if ($idade >= 0 && $idade >=15) {
+      echo "Não pode votar";
+     } elseif ($idade >=16 && $idade <= 17) {
+      echo "Pode votar mais não é obrigatorio ";
+     } elseif ($idade >=18 && $idade <= 70) {
+      echo "Obrigatorio votar";
+     }else
+      echo "opição invalida";
+       
+     // funçao para indentificar se é par ou ímpar
+ 
+    echo "<h2>Exércicio 4</h1>";
+ 
+    $numero3 = 10;
+ 
+    if ($numero3 %2 == 0) {
+      echo "O número é par";
+    }else{
+      echo "O número é ímpar";
+    }
+ 
+    echo "<br>";
+ 
+ 
+    //funçao para calcular o valor do ingreso de acorodo com o horario
+ 
+ 
+    echo "<br>";
+ 
+ 
+    echo "<h2>Exércicio 5</h1>";
+ 
+     $horario = 12.00;
+ 
+      if ($horario >= 10.00 && $horario <= 12.00) {
+        echo "preço ingreço: R$ 10,00.";
+      } elseif ($horario >= 12.01 && $horario <= 17.00) {
+        echo "Preço ingreço: 20,00";
+      } elseif ($horario >= 17.01 && $horario <= 22.00) {
+        echo "preço ingreço: 30,00";
+      } else
+          echo "cinema fechado";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      /*Exercícios com switch:
      1|Faça um programa que determine o dia da semana
 O programa deve receber um número de 1 a 7, representando um dia da semana, 
