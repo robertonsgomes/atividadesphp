@@ -104,7 +104,7 @@
 
 
 
-
+echo "<h1> Exercícios Switch</h1>";
 
 
      /*Exercícios com switch:
@@ -191,6 +191,8 @@ o Se o código for inválido, deve mostrar uma mensagem de erro.
         
              }
              echo"<br><br>";
+
+             echo "<h1> Exercícios arrays</h1>";
 /*Exercícios com arrays:
 1. Faça um programa que crie um array com os nomes de 5 amigos
 O programa deve permitir que o usuário adicione 5 nomes ao array e, em seguida, 

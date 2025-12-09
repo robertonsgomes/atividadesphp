@@ -37,6 +37,44 @@
           echo(round(5.32) . "<br>");
 
     
+          // atividade 3
+ echo "<br><br>";
+    $valorEmprestimo = 15000;  
+    $taxaJuros = 8.08;
+$numeroParcelas = 12;
+ 
+$taxa = $taxaJuros / 100;
+ 
+ 
+$parcela = $valorEmprestimo *
+          ( ($taxa * pow(1 + $taxa, $numeroParcelas)) /
+            (pow(1 + $taxa, $numeroParcelas) - 1) );
+ 
+echo "Valor do empréstimo: R$ " . round($valorEmprestimo, 2) . "<br>";
+echo "Taxa de juros: " . $taxaJuros . "% ao mês<br>";
+echo "Número de parcelas: " . $numeroParcelas . "<br>";
+echo "Valor da parcela: R$ " . round($parcela, 2);
+echo"<br><br>";  
+ 
+//atividade 4
+$valorReais = 500;        
+$taxaCambio = 5.34;      
+$valordolar = 500.00;
+ 
+$valorDolares = $valorReais / $taxaCambio;
+$valoremreais = $valordolar * $taxaCambio;
+ 
+$valorDolares = round($valorDolares, 2);
+ 
+ 
+echo "Valor em reais: R$ " . round($valorReais, 2) . "<br>";
+echo "Taxa de câmbio: R$ " . round($taxaCambio, 2) . "<br><br>";
+echo "Valor convertido: US$ " . round($valorDolares, 2) . "<br>";
+ 
+ 
+echo "<br> Valor em dolar: R$ " . round($valordolar, 2) . "<br>";
+echo "Taxa de câmbio: R$ " . round($taxaCambio, 2) . "<br><br>";
+echo "Valor convertido: US$ " . round($valoremreais, 2);
     ?>
     </h2>
 </body>
