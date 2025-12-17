@@ -187,7 +187,7 @@ o Se o código for inválido, deve mostrar uma mensagem de erro.
             echo "Vocé ganhou 30% de desconto.";
             break;
             default:
-            echo "Codígo de desconto invalido";
+            echo"Codígo de desconto invalido";
         
              }
              echo"<br><br>";

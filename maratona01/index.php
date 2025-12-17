@@ -74,7 +74,7 @@ echo "Valor convertido: US$ " . round($valorDolares, 2) . "<br>";
  
 echo "<br> Valor em dolar: R$ " . round($valordolar, 2) . "<br>";
 echo "Taxa de câmbio: R$ " . round($taxaCambio, 2) . "<br><br>";
-echo "Valor convertido: US$ " . round($valoremreais, 2);
+echo"Valor convertido: US$ " . round($valoremreais, 2);
     ?>
     </h2>
 </body>
